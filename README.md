@@ -8,7 +8,7 @@
 
 XML example: 
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+"<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              xmlns:app="http://schemas.android.com/apk/res-auto"
              android:layout_width="match_parent"
@@ -19,7 +19,7 @@ XML example:
              app:behavior_hideable="false"
              app:layout_collapseMode='parallax'
              app:behavior_peekHeight="120dp"
-             app:layout_behavior="your.package.TopSheetBehavior">
+             app:layout_behavior="your.package.TopSheetBehavior">"
              
 ## TopSheetBehaviour Kotlin: 
              
