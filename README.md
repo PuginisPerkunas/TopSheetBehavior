@@ -4,7 +4,7 @@
 
 ## TopSheetBehaviour XML: 
 
-###### Usages XML: app:layout_behavior="your.package.TopSheetBehavior"
+###### Usages XML: **app:layout_behavior="your.package.TopSheetBehavior"**
 
 XML example: 
 ```xml
@@ -25,7 +25,7 @@ XML example:
 ## TopSheetBehaviour Kotlin: 
              
 ###### Kotlin example: 
-
+ ```
  private lateinit var topSheetBehavior: TopSheetBehavior<*>
  
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,3 +35,4 @@ XML example:
         val topSheet: FrameLayout = findViewById(R.id.flTopSheet)
         topSheetBehavior = TopSheetBehavior.from<FrameLayout>(topSheet)
   }
+  ```
