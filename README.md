@@ -4,9 +4,9 @@
 
 ## TopSheetBehaviour XML: 
 
-###### Usages XML: **app:layout_behavior="your.package.TopSheetBehavior"**
+Usages XML: **app:layout_behavior="your.package.TopSheetBehavior"**
 
-XML example: 
+###### XML example: 
 ```xml
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
